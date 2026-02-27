@@ -8,9 +8,11 @@ public class Item {
     private int quantidade;
     private String descricao;
     private String id;
+    private static float descontoCarrinho;
     
     public Item(String id, String descricao, int quantidade, float preco){
         this.id = id;
+        this.descricao = descricao;
         precoUnitario = preco;
         if(quantidade >= 0){
             this.quantidade = quantidade;
@@ -66,6 +68,8 @@ public class Item {
         this.descricao = descricao;
     
     }
+    
+    public void setDescontoCarrinho
     
     
     
