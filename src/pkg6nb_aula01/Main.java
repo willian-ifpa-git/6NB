@@ -13,8 +13,14 @@ public class Main {
         float paoPreco = pao.getTotalAjustado();
         System.out.println(pao.getDescricao()+" \t $"+paoPreco);
         System.out.println(leite.getDescricao()+"\t $"+leite.getTotalAjustado());
-        
+        leite.setDescontoCarrinho(1f);
+        pao.setDescontoCarrinho(0.2f);
+        System.out.println(Item.getDescontoCarrinho());
        
     }
     
 }
+
+
+
+

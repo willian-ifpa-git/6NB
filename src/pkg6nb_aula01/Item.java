@@ -69,7 +69,13 @@ public class Item {
     
     }
     
-    public void setDescontoCarrinho
+    public void setDescontoCarrinho(float descontoCarrinho){
+        this.descontoCarrinho = descontoCarrinho;
+
+}
+    public static float getDescontoCarrinho(){
+        return descontoCarrinho;
+    }
     
     
     
